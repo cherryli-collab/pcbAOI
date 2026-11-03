@@ -1,0 +1,8 @@
+# Sample YOLO dataset config for PCB AOI weld defect detection
+train: ./train/images
+val: ./val/images
+
+test: ./test/images  # Optional, remove if not used
+
+nc: 3
+names: ['scratch', 'solder', 'cap_misalignment']
